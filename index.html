@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <div class="bg"></div>
+
+
+
+
+        <div class="content">
+
+
+  <div class="nav">
+
+
+ <div class="navLeft">
+     <div class="search">
+     <input type="text" id="searchInput" placeholder="Search books by Title/Author" />       
+     </div>
+ </div>
+
+
+<div class="navRight">
+        <div class="view">
+        <select id="viewSelect">
+            <option hidden disabled selected>view</option>
+            <option id="list" value="list">List</option>
+            <option id="grid" value="grid">Grid</option>
+        </select>
+
+        </div>
+          <div class="sort">
+    <select id="sortSelect">
+        <option hidden disabled selected>Sort By</option>
+        <option id="title" value="title">Title</option>
+        <option id="releaseDate" value="release-date">Release Date</option>
+    </select
+
+ </div>
+            </div>
+ </div>
+
+
+        </div>
+
+
+
+            <div  id="books"></div>
+
+
+            <div class="footer">
+
+                <div class="buttons">
+                    <button id="prev">Prev</button>
+                    <div id="pageNo">1</div>
+                    <button id="next">Next</button>
+                </div>
+
+            </div>
+
+
+
+
+
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
