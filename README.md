@@ -17,6 +17,6 @@ A web application that allows users to browse, search, and manage books in a lib
 - CSS
 - JavaScript
 
-Live Demo
+
 Click here to see the live project
 https://gauravsharma1711.github.io/Library-Project/
